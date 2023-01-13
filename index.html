@@ -10,9 +10,20 @@
 </head>
 
 <header id="he">
-    <div class="cabecera">
-        <input type="button" class="info" value="Informacion" />
+    <div class="cabecera" id="cabecera">
+        <p><a href="" class="info">Informacion</a></p>
+       <!-- <input type="button" class="info" value="Informacion" /> -->
+        <!--Cuadro animado de informacion-->
+        <section class="cuadroInformacion">
+            <ul>
+                <li>Reset: Vuelve a comenzar el juego</li>
+                <li>Nuevo: Vuelve el juego desde cero</li>
+                <li>Finalizar: Finaliza la partida</li>
+            </ul>
+        </section>
+        
     </div>
+
     <div class="cabecera"><h1>Ta-Te-Ti</h1></div>
     <div class="cabecera"><p id="record">Record:</p></div>
 </header>
@@ -56,6 +67,8 @@
 <footer>
     <p>Copyrigth&copy 2023 - Hernan Luis Veyret - v1.0</p>
 </footer>
+
+<!-- pestaña para ingresar los nombres de los jugadores-->
 <section id="nombreS">
     <div class="inputName">
         <div><span>NOMBRE JUGADOR X:</span><input type="text" class="jugadoresNombre" id="jugador1" autofocus /></div>
