@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: letra;
+    src: url('cargo.ttf');
+}
 body {
     display: flex;
     justify-content: center;
@@ -16,6 +20,12 @@ header {
     background-color: blue;
     box-shadow: 2px 2px 5px black;
 }
+.info {
+    font-size: 15px;
+    width: auto;
+    height : auto;
+    backgorund-color: blue;
+}
 .cabecera {
     width: 33%;
     height: 60px;
@@ -25,6 +35,7 @@ header {
     color: white;
 }
 h1 {
+    font-family: letra;
     font-size: 50px;
     text-shadow: 2px 2px 5px black;
 }
@@ -80,6 +91,7 @@ p {
     font-size: 40px;
     color: blue;
     margin-top: 10px;
+    font-family: letra;
 }
 .botones {
     width: 100%;
@@ -99,6 +111,7 @@ p {
     width: 100%;
     height: 70px;
     font-size: 2em;
+    font-family: letra;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,10 +167,7 @@ button {
 
 @media ( max-width: 700px){
     header {
-        display: block;
-        height: auto;
-        margin-top: 160px;
-        text-align: center;
+        margin-top: 100px;
     }
     h1 {
         font-size: 30px;    
@@ -186,6 +196,7 @@ button {
         margin: 0 auto;
     }
     .indicaciones {
-        font-size: 20px;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }

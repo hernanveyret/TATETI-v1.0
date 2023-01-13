@@ -304,4 +304,5 @@ function finaliza() {
         record.innerHTML = `Record: ${player}  ${puntomayor} Puntos`
         }
     }
+    location.href = 'index.html';
 }
